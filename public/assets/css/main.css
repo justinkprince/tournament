@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.info {
+  padding: 0.5em 1em;
+  margin-bottom: 1em;
+  border: 1px solid #333;
+  background-color: #ccc;
+  font-weight: 700;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.matchup {
+  padding: 1em;
+  margin-bottom: 1em;
+  border: 1px solid #09c;
+}
+
+.matchup-buy {
+  background-color: #eee;
+  border: 1px solid #999;
+}
